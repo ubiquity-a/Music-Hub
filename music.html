@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <link rel="stylesheet" href="music.css">
+</head>
+<body class="bg-yellow-50 ">
+    <nav class="flex bg-black  py-2">
+        <img class="flex w-10"  src="logo.jpg">
+        <ul class="text-white space-x-9  flex">
+            <li class="text-md pt-1 font-semibold">Music Hub </li>
+            <li class="flex pt-1 ">Home </li>
+            <li class="pt-1">About</li>
+        </ul>
+    </nav>
+    <div class=" flex mr-[200px] ml-[200px] rounded-md mt-5 mb-5 pt-4 pl-2 min-h-[575px] bg-cover bg-no-repeat text-white" style="background-image: url(back\ pic2.jpg)">
+        <div class="songlist">
+            <h1>BEST of NCS - No Copyright Sound</h1>
+                
+            <div class="songItem">
+<!--song item-->                
+                <div class="flex space-x-3 pt-6">
+                    <img  class=" w-8 flex rounded-3xl"  src="back pic.jpg" alt="1">
+
+                    <p class=" border-2  border-green-500 pl-4 pr-[97px] rounded-md font-light hover:border-red-500"><span class="songName"> I don't Wanna talk</span></p>
+                    <span class="text-xs pt-3"> <span>02:43</span><i class=" ml-2 far fa-md fa-circle-play"> </i> </span>
+                </div>
+                <div class="flex space-x-3 pt-2">
+                    <img  class=" w-8 flex rounded-3xl"  src="back pic.jpg" alt="1">
+                    <p class=" border-2  border-green-500 pl-4 pr-[66px] rounded-md font-light hover:border-red-500"><span class="songName"> Scars To Your beautiful</span></p>
+                    <span class="text-xs pt-3"> <span>02:43</span><i class=" ml-2 far fa-md fa-circle-play"> </i> </span>
+                </div>
+                <div class="flex space-x-3 pt-2 ">
+                    <img  class=" w-8 flex rounded-3xl"  src="back pic.jpg" alt="1">
+                    <p class=" border-2  border-green-500 pl-4 pr-[78px] rounded-md font-light hover:border-red-500"><span class="songName"> Wasting My Emotion</span></p>
+                    <span class="text-xs pt-3"> <span>02:43</span><i class=" ml-2 far fa-md fa-circle-play"> </i> </span>
+                </div>
+                <div class="flex space-x-3 pt-2">
+                    <img  class=" w-8 flex rounded-3xl"  src="back pic.jpg" alt="1">
+                    <p class=" border-2  border-green-500 pl-4 pr-[70px] rounded-md font-light hover:border-red-500"><span class="songName"> Ankhein Teri Kitni Hasi</span></p>
+                    <span class="text-xs pt-3"> <span>02:43</span><i class=" ml-2 far fa-md fa-circle-play"> </i> </span>
+                </div>
+                <div class="flex space-x-3 pt-2">
+                    <img  class=" w-8 flex rounded-3xl"  src="back pic.jpg" alt="1">
+                    <p class=" border-2  border-green-500 pl-4 pr-[116px] rounded-md font-light hover:border-red-500"><span class="songName"> Kash Aisa Hota</span></p>
+                    <span class="text-xs pt-3"> <span>02:43</span><i class=" ml-2 far fa-md fa-circle-play"> </i> </span>
+                </div>
+                <div class="flex space-x-3 pt-2">
+                    <img  class=" w-8 flex rounded-3xl"  src="back pic.jpg" alt="1">
+                    <p class=" border-2  border-green-500 pl-4 pr-[127px] rounded-md font-light hover:border-red-500"><span class="songName"> Do You Know</span></p>
+                    <span class="text-xs pt-3"> <span>02:43</span><i class=" ml-2 far fa-md fa-circle-play"> </i> </span>
+                </div>
+                <div class="flex space-x-3 pt-2">
+                    <img  class=" w-8 flex rounded-3xl"  src="back pic.jpg" alt="1">
+                    <p class=" border-2  border-green-500 pl-4 pr-[103px] rounded-md font-light hover:border-red-500"><span class="songName"> OK Not To Be OK</span></p>
+                    <span class="text-xs pt-3"> <span>02:43</span><i class=" ml-2 far fa-md fa-circle-play"> </i> </span>
+                </div>
+                <div class="flex space-x-3 pt-2">
+                    <img  class=" w-8 flex rounded-3xl"  src="back pic.jpg" alt="1">
+                    <p class=" border-2  border-green-500 pl-4 pr-[116px] rounded-md font-light hover:border-red-500"><span class="songName"> Daydreaming...</span></p>
+                    <span class="text-xs pt-3"> <span>02:43</span><i class=" ml-2 far fa-md fa-circle-play"> </i> </span>
+                </div>
+                <div class="flex space-x-3 pt-2">
+                    <img  class=" w-8 flex rounded-3xl"  src="back pic.jpg" alt="1">
+                    <p class=" border-2  border-green-500 pl-4 pr-5 rounded-md font-light hover:border-red-500"><span class="songName">Bam Bam Bole Masti me dole</span></p>
+                    <span class="text-xs pt-3"> <span>02:43</span><i class=" ml-2 far fa-md fa-circle-play"> </i> </span>
+                </div>
+                
+            </div>   
+                     <div class="songbanner"></div>   
+        </div>
+
+
+    </div>
+<!--bottom-->  
+   
+    <div class=" sticky h-[125px]  pt-5 bg-black">
+        <div class="justify-center text-center">
+            <input class=" cursor-pointer" type="range" name="range"  id="myProgressBar"  min="0"   Value="0" max="100">
+        </div>
+        <div class=" text-white flex ml-[220px] ">
+<!--fontawesome icon-->
+            <div class="flex space-x-1 ">       
+                 <div class="songinfo">
+<!--giphy-->                    
+                        <img  src="gif.gif" width="42px" alt="" id="gif" >
+                  </div>
+                <span class="pt-1"><span class="songName"> Ankhein Teri Kitni Hasi</span> - pta nhi</span>
+              
+                <i class="fas fa-2xl fa-step-backward pl-[285px] pt-4"></i>
+                <i class="far fa-2xl fa-play-circle pt-4" id="masterPlay"></i> 
+                <i class="fas fa-2xl fa-step-forward  pt-4"></i>
+ 
+           </div>          
+        </div>
+
+    </div>
+    <script src="https://kit.fontawesome.com/c9f71707c1.js" crossorigin="anonymous"></script>
+    <script src="music.js"></script>
+    
+</body>
+</html>

@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Tiro+Devanagari+Marathi&family=Tiro+Tamil&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Tiro+Devanagari+Marathi&family=Tiro+Tamil&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#myProgressBar{
+    width: 70vw;
+    text-align: center;
+}
+.songinfo{
+   
+    position: absolute;
+    left: 12vw;
+}
+.songinfo img{
+    opacity: 1;
+    transition: opacity 0.2s  ease-in ;
+}
+
+   
