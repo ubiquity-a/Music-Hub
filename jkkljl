@@ -1,7 +1,0 @@
-.container{
-    min-height: 80vh;
-    font-family: 'Varela Round', sans-serif;
- 
-    width: 20%;
-    color: aliceblue;
-}
