@@ -9,12 +9,12 @@ let gif = document.getElementById('gif');
 songItems = Array.from(document.getElementsByClassName('songItem'));
 let songs = [
     {songName: "I don't Wanna talk", filePath: "songs/1.mp3", coverPath: "back pic.jpg"},
-    {songName: " Scars To Your beautiful", filePath: "songs/2.mp3", coverPath: "back pic.jpg"},
+    {songName: "Scars To Your beautiful", filePath: "songs/2.mp3", coverPath: "back pic.jpg"},
     {songName: "Wasting My Emotion", filePath: "songs/3.mp3", coverPath: "back pic.jpg"},
     {songName: "Ankhein Teri Kitni Hasi ", filePath: "songs/4.mp3", coverPath: "back pic.jpg"},
     {songName: "Kash Aisa Hota ", filePath: "songs/5.mp3", coverPath: "back pic.jpg"},
     {songName: " Do You Know", filePath: "songs/6.mp3", coverPath: "back pic.jpg"},
-    {songName: "Pretty Girl ", filePath: "songs/7.mp3", coverPath: "back pic.jpg"},
+    {songName: "What If ", filePath: "songs/7.mp3", coverPath: "back pic.jpg"},
     {songName: "OK Not To Be OK", filePath: "songs/8.mp3", coverPath: "back pic.jpg"},
     {songName: "Braat", filePath: "songs/9.mp3", coverPath: "back pic.jpg"}
 
